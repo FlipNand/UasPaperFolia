@@ -1,0 +1,51 @@
+# UAS example configuration.
+#
+# Every default here is the memory-safe one: an operator who changes nothing gets the
+# constrained behaviour and a working pack URL.
+
+# Force the constrained-RAM profile regardless of heap size. Leave false and the profile is
+# auto-detected -- a 4 GiB instance gets it anyway, because the threshold is on the heap the
+# engine actually has, not on the machine's RAM.
+low-memory-mode: false
+
+# The absolute URL clients fetch the pack from. This must be the address a *client* can reach,
+# including the play port, because the pack is served by the multiplexer attached to the
+# Minecraft listener. The engine cannot discover the *host* itself: behind NAT, a proxy or a
+# container the bind address and the public address differ, and guessing produces a pack URL
+# that silently 404s for every player outside the host.
+#
+# Deliberately left unset. The plugin then derives it from the port the server actually bound,
+# which is the part it can know; set it explicitly only to change the host -- for example
+# "https://cdn.example.com/uas/pack/" -- or when a proxy forwards a different public port.
+# Set it to a port the server is not listening on and the engine warns at startup rather than
+# handing every player a URL nothing answers.
+# public-base-url: "http://127.0.0.1:25565/uas/pack/"
+
+pack-prompt: "UAS example resource pack"
+
+# A required pack blocks play until it is applied. Left false so a download failure degrades
+# to vanilla textures instead of locking players out of the server.
+pack-required: false
+
+# Re-hash the archive at registration. Only worth it for hand-copied packs; the engine's own
+# compiler has already computed the hash while writing the file.
+verify-packs-on-register: false
+
+max-tracked-players: 4096
+
+# Startup injection retries: a plugin can enable before the server has bound its socket, so
+# the multiplexer attachment is retried rather than assumed.
+hook-retry-interval-ticks: 10
+max-hook-attempts: 30
+
+# How often to compare each player's pack generation and re-push if they are behind. The check
+# is a single counter comparison per player, so this is cheap at any interval.
+pack-sweep-interval-ticks: 200
+
+# Logs a SEVERE line if a block is mutated off its owning region thread. This is a development
+# guard: on Folia such a mutation corrupts world state rather than throwing, so the check has
+# to be the engine's. Safe to leave on; it is one comparison per placement.
+ownership-guard: true
+
+# Print the full engine status and the injection trace at startup.
+log-startup-trace: true

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.geyser.jit.BedrockJitCompilerTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.313Z" hostname="Aris-MacBook-Air.local" time="0.234">
+  <properties/>
+  <testcase name="aShapedCubeKeepsItsProportionsAndOffset()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.06"/>
+  <testcase name="geometryJsonIsParseableAndStable()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.008"/>
+  <testcase name="aBoundProgressBarBecomesAPercentageTheFormCanShow()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.01"/>
+  <testcase name="soundPathsAreRelativeToThePackSoundsDirectoryWithoutAnExtension()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.009"/>
+  <testcase name="lightEmissionIsOnlyEmittedWhenTheBlockEmitsLight()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.007"/>
+  <testcase name="aPitchRangeCollapsesToTheMidpointAndSaysSo()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.004"/>
+  <testcase name="aFullCubeBecomesTheCanonicalCentredBedrockCube()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.004"/>
+  <testcase name="twoKeysThatWouldShareABedrockEventAreRejected()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.004"/>
+  <testcase name="theRenderPathSelectsTheOutputShapeAndNothingElseDoes()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.008"/>
+  <testcase name="aRotatedElementIsBakedIntoItsBoundsAndReported()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.012"/>
+  <testcase name="attenuationCurveDoesNotChangeTheEmittedSoundList()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.005"/>
+  <testcase name="hardnessBecomesSecondsToDestroy()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.007"/>
+  <testcase name="weightedVariantsExpandSoBedrocksUniformPickMatchesJavasWeightedOne()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.011"/>
+  <testcase name="aFormCannotDrawAnImageAndSaysSo()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.014"/>
+  <testcase name="aStreamedVariantKeepsItsStreamFlag()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.011"/>
+  <testcase name="aFormIsTitleBodyAndButtons()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.002"/>
+  <testcase name="aSlotGridIsNeverDrawnIntoAClientPackBecauseTheServerCouldNotServeIt()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.02"/>
+  <testcase name="customJsonEmitsAUsableLayoutElementTree()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.001"/>
+  <testcase name="compilingAJavaPathForBedrockIsRejectedRatherThanGuessed()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.008"/>
+  <testcase name="theDefinitionReferencesTheGeometryAndTheRenderMethod()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.002"/>
+  <testcase name="aDecorationHasNoCollisionBoxRatherThanAnEmptyOne()" classname="dev.uas.geyser.jit.BedrockJitCompilerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

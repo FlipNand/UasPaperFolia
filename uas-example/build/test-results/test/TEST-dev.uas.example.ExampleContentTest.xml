@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.example.ExampleContentTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.680Z" hostname="Aris-MacBook-Air.local" time="0.133">
+  <properties/>
+  <testcase name="aGeometryKeepsItsTextureSlotsInDeclarationOrder()" classname="dev.uas.example.ExampleContentTest" time="0.019"/>
+  <testcase name="theLampIsShapedAnimatedTranslucentAndEmissive()" classname="dev.uas.example.ExampleContentTest" time="0.005"/>
+  <testcase name="theCompiledPackShipsTheModelSoundDefinitionsAndAnimationSidecar(Path)" classname="dev.uas.example.ExampleContentTest" time="0.042"/>
+  <testcase name="everyTextureSlotTheModelReferencesIsDeclared()" classname="dev.uas.example.ExampleContentTest" time="0.001"/>
+  <testcase name="theHudBindsOnlyKeysItDeclares()" classname="dev.uas.example.ExampleContentTest" time="0.005"/>
+  <testcase name="thePackStaysWithinTheConstrainedBudget(Path)" classname="dev.uas.example.ExampleContentTest" time="0.009"/>
+  <testcase name="thePlannerSendsTheJavaClientAnOverlayAndTheBedrockClientCustomJson()" classname="dev.uas.example.ExampleContentTest" time="0.002"/>
+  <testcase name="theCompiledPackBindsTheNoteBlockStateToTheCustomModel(Path)" classname="dev.uas.example.ExampleContentTest" time="0.004"/>
+  <testcase name="theStateUsedByThePackIsTheStateThePlacerWouldSet()" classname="dev.uas.example.ExampleContentTest" time="0.001"/>
+  <testcase name="everyFaceReferenceNamesADeclaredTextureSlot()" classname="dev.uas.example.ExampleContentTest" time="0.002"/>
+  <testcase name="theModelParticleTextureComesFromTheUpFaceRatherThanAnArbitrarySlot()" classname="dev.uas.example.ExampleContentTest" time="0.001"/>
+  <testcase name="thePackIsByteStableAcrossCompiles(Path)" classname="dev.uas.example.ExampleContentTest" time="0.006"/>
+  <testcase name="theBreakSoundIsWeightedSoTheBedrockExpansionIsExercised()" classname="dev.uas.example.ExampleContentTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

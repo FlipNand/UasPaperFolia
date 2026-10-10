@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.memory.MmapOffHeapTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:48.684Z" hostname="Aris-MacBook-Air.local" time="2.298">
+  <properties/>
+  <testcase name="a windowed mapping of a region is correct and bounded" classname="dev.uas.netty.memory.MmapOffHeapTest" time="0.512"/>
+  <testcase name="CRC32C over the mapping matches the same digest computed by streaming" classname="dev.uas.netty.memory.MmapOffHeapTest" time="0.408"/>
+  <testcase name="a mapped window returns the file's bytes and is a direct, off-heap buffer" classname="dev.uas.netty.memory.MmapOffHeapTest" time="0.364"/>
+  <testcase name="closing drops the mapping and reports whether the JVM unmapped it" classname="dev.uas.netty.memory.MmapOffHeapTest" time="0.352"/>
+  <testcase name="reading the whole 64 MiB mapping costs almost no heap" classname="dev.uas.netty.memory.MmapOffHeapTest" time="0.661"/>
+  <system-out><![CDATA[explicit unmap succeeded: true
+mmap read of 64 MiB grew the heap by 0.00 MiB
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

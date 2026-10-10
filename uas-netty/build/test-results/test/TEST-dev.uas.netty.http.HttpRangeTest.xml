@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.http.HttpRangeTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:48.668Z" hostname="Aris-MacBook-Air.local" time="0.007">
+  <properties/>
+  <testcase name="coversWholeEntity recognises a full-length range" classname="dev.uas.netty.http.HttpRangeTest" time="0.001"/>
+  <testcase name="whitespace and casing are tolerated" classname="dev.uas.netty.http.HttpRangeTest" time="0.001"/>
+  <testcase name="the record itself rejects inverted or negative bounds" classname="dev.uas.netty.http.HttpRangeTest" time="0.002"/>
+  <testcase name="only the first of several ranges is honoured" classname="dev.uas.netty.http.HttpRangeTest" time="0.0"/>
+  <testcase name="an end past the entity is clamped, not rejected" classname="dev.uas.netty.http.HttpRangeTest" time="0.0"/>
+  <testcase name="a start past the entity is unsatisfiable and reports bytes */length" classname="dev.uas.netty.http.HttpRangeTest" time="0.0"/>
+  <testcase name="a range over an empty entity is unsatisfiable" classname="dev.uas.netty.http.HttpRangeTest" time="0.001"/>
+  <testcase name="absent and non-byte-unit headers mean 'serve everything'" classname="dev.uas.netty.http.HttpRangeTest" time="0.0"/>
+  <testcase name="closed, open-ended and suffix forms are all satisfied" classname="dev.uas.netty.http.HttpRangeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

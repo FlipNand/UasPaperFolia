@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.RawHttpProbeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:48.644Z" hostname="Aris-MacBook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="dumpRawResponse()" classname="dev.uas.netty.RawHttpProbeTest" time="0.013"/>
+  <system-out><![CDATA[bind=/127.0.0.1:50607
+hooked=true
+
+======== REQUEST ========
+GET /uas/ping HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (104 bytes) --------
+HTTP/1.1 200 OK\n
+content-type: text/plain; charset=utf-8\n
+content-length: 6\n
+connection: close\n
+\n
+uas/1
+
+
+======== REQUEST ========
+GET /uas/packs HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (202 bytes) --------
+HTTP/1.1 200 OK\n
+content-type: text/plain; charset=utf-8\n
+content-length: 102\n
+connection: close\n
+\n
+[{"id":"v1","sha1":"93ffe7cd6a0e274f18308cbb312d68cd5312d209","size":4096,"name":"UAS test pack v1"}]
+
+
+======== REQUEST ========
+GET /uas/pack/v1 HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (4417 bytes) --------
+HTTP/1.1 200 OK\n
+content-type: application/zip\n
+etag: "93ffe7cd6a0e274f18308cbb312d68cd5312d209"\n
+cache-control: public, max-age=31536000, immutable\n
+accept-ranges: bytes\n
+date: Sat, 10 Oct 2026 23:16:48 GMT\n
+last-modified: Sat, 10 Oct 2026 23:16:48 GMT\n
+vary: accept-encoding\n
+content-length: 4096\n
+connection: close\n
+\n
+vVqÖc?0q"ã>k®Ù¿?¼Z_]]>&#x91;<![CDATA[Lº?]]>&#x81;<![CDATA[Æ¹áG?Y]]>&#x89;<![CDATA[®ñ?ñÌ?øGÀz?fw¶!]]>&#x81;<![CDATA[0]]>&#x8e;<![CDATA[]]>&#x98;<![CDATA[æYÔ?]]>&#x86;<![CDATA[Å¹]]>&#x91;<![CDATA[KÄÂÂ?laªâª>]]>&#x9d;<![CDATA[xÍÝþÂáY"da±û?ËQû¼]]>&#x99;<![CDATA[æ5áö?*?«¥]]>&#x9d;<![CDATA[9u??þ]]>&#x94;<![CDATA[y?A¡]]>&#x8f;<![CDATA[FI]]>&#x91;<![CDATA[å".]]>&#x89;<![CDATA[,?óä,Yõ«¯®ãº]]>&#x81;<![CDATA[\n
++Hû]]>&#x9a;<![CDATA[]]>&#x95;<![CDATA[?ðøÍ]]>&#x82;<![CDATA[¥]]>&#x92;<![CDATA[??·P??]]>&#x9b;<![CDATA[ÇÀ.?i?ß+]H??	÷/7\?&]]>&#x97;<![CDATA[â$?ÕÑ]]>&#x8a;<![CDATA[À?F]]>&#x82;<![CDATA[»]]>&#x99;<![CDATA[Ç?Ô]]>&#x90;<![CDATA[¼Æ²g?]]>&#x88;<![CDATA[?XúÞm|ü$±¿TL]]>&#x8c;<![CDATA[mà]]>&#x9f;<![CDATA[O0Ïâë¶~È@]]>&#x93;<![CDATA[ÙÿÔXæ/?\ùÒv??8\Ê]]>&#x7f;<![CDATA[þ?ia?M]]>&#x80;<![CDATA[]]>&#x9b;<![CDATA[MÿÖ?ú]]>&#x7f;<![CDATA[cÕ?¿«?f²¤É]]>&#x9c;<![CDATA[?ç]]>&#x96;<![CDATA[#?þ}?]]>&#x93;<![CDATA[·?[º'ã?%¦]]>&#x94;<![CDATA[?Â=»"#66çG"~cú?¾©]]>&#x83;<![CDATA[?T\ÅâÈ?]]>&#x95;<![CDATA[ýï'Ñ]]>&#x93;<![CDATA['Òà@?ó??NÀ/õa]]>&#x9c;<![CDATA[ño?WI?]]>&#x9b;<![CDATA[Y?é.??;3Q>Õö]]>&#x8b;<![CDATA[&<ë't]]>&#x99;<![CDATA[m0]]>&#x9a;<![CDATA[b¬zõ²24OrÊhhvó¥nð?ð]]>&#x89;<![CDATA[$'Aó?íþ5¯]]>&#x95;<![CDATA[ÄâHa¸DSªOUª²þf 5ß?k]]>&#x88;<![CDATA[¬<ÙNin]]>&#x82;<![CDATA[)Ä­Õ]]>&#x8a;<![CDATA[ÖM]]>&#x89;<![CDATA[?]]>&#x9a;<![CDATA[óÌNzÜÃ·ý}­¯$$Û]]>&#x84;<![CDATA[¹Yú¢?»1?ìÕ:T?q¯ìmdvÊ??nô]]>&#x8d;<![CDATA[Åk»ñÌÄë?öS??]]>&#x8d;<![CDATA[iQ?ªmæ?ï×?ð]]>&#x9c;<![CDATA[¯,û?ë ?M]]>&#x92;<![CDATA[]]>&#x9e;<![CDATA[?};Õ?ó}0ÍY
+ÆÉáëÇ?3î¼ñX]]>&#x8b;<![CDATA[]]>&#x9e;<![CDATA[]NH]]>&#x8b;<![CDATA[&è?]]>&#x97;<![CDATA[Z³Iû8¬µ]]>&#x99;<![CDATA[$¦]]>&#x9d;<![CDATA[]]>&#x89;<![CDATA[Hp?]]>&#x93;<![CDATA[Ö]]>&#x88;<![CDATA[Ü@QUdÒju$LwXkÂäYöÎ]]>&#x96;<![CDATA[]]>&#x94;<![CDATA[lUé¶¬.Õ*Ä!±6]]>&#x7f;<![CDATA[]]>&#x82;<![CDATA[?i7ìíúU9X=[²å]]>&#x83;<![CDATA[`n]]>&#x8c;<![CDATA[á]]>&#x84;<![CDATA[ù/`-k03ð??]]>&#x9a;<![CDATA[J?÷;?Û?³D]]>&#x8b;<![CDATA[]]>&#x8d;<![CDATA[I@Ø]jÙ8­÷D=wÜ;à]]>&#x86;<![CDATA[Í)KE]]>&#x88;<![CDATA[ÈZú?]]]>&#x92;<![CDATA[1Ì}Þ<]]>&#x8c;<![CDATA[ö?GA]]>&#x95;<![CDATA[HÜ]]>&#x8a;<![CDATA[Rp8R%Â?¡?]]>&#x8f;<![CDATA[HUZ?¸í¸|]]>&#x9b;<![CDATA[Ñÿ0G§ðt$V6A|wÒØEù·¦]]>&#x8e;<![CDATA[]]>&#x87;<![CDATA[	MfEÀ¬?E¸??ÆU?]]>&#x97;<![CDATA[¤?¾É;Æ¾?×5äs?mg?k?À´4R?]]>&#x86;<![CDATA[?]]>&#x81;<![CDATA[?Ì÷?ÝYñ÷<\]]>&#x9b;<![CDATA[Kõ5 ?÷Ä&7Ä?gåí"?4Ñ?|ê]]>&#x9d;<![CDATA[]]>&#x83;<![CDATA[¤½]]>&#x8d;<![CDATA[2]]>&#x90;<![CDATA[]]>&#x9b;<![CDATA[?M³&?]]>&#x84;<![CDATA[Þ]]>&#x8d;<![CDATA[]]>&#x9c;<![CDATA[£Ë??_²?Óa½{yE 3wäÝQ]]>&#x80;<![CDATA[cò5ú]]>&#x84;<![CDATA[Es`¼¦;ªð6®>ñn{???3Vi]]>&#x8e;<![CDATA[Ç	ûjð^?]]>&#x90;<![CDATA[°/?K]]>&#x98;<![CDATA[~?%?ôfªú?ô§]]>&#x9a;<![CDATA[so]]>&#x88;<![CDATA[áÃÿ]]>&#x9d;<![CDATA[©]]]>&#x88;<![CDATA[kµÔ]]>&#x91;<![CDATA[³.?ã?u©üyôÅH	?w]]>&#x7f;<![CDATA[Ï]]>&#x98;<![CDATA[d5G&KX]]>&#x83;<![CDATA[?ù'?8?õØ}]]>&#x93;<![CDATA[x¥ÄEA?¥[]]>&#x9b;<![CDATA[öKr­?]]>&#x7f;<![CDATA[¼,iý3}ùJñ]]>&#x89;<![CDATA[ò©µÆ³PHèÖ]]>&#x88;<![CDATA[ìúÿbO]]>&#x9c;<![CDATA[}jù]]>&#x89;<![CDATA[æ]]>&#x93;<![CDATA[?®ß??ÎQn]]>&#x9e;<![CDATA[cÈ?ëÅ?ob,]]>&#x9b;<![CDATA[]¥Âg]]>&#x96;<![CDATA[oÈh¼ÁÒÀLa
+ëc]]>&#x86;<![CDATA[Ò8#?ÞÖ³ù]]>&#x8e;<![CDATA[ß]]>&#x84;<![CDATA[5³ Ï³]]>&#x94;<![CDATA[ Au?qäx$¨×^=]]>&#x7f;<![CDATA[]]>&#x7f;<![CDATA[ëªÅ´Î?~LÞÍÇ?sçsâ?ùîC8ÿ·õ!?tx!?S¬¼_0]]>&#x99;<![CDATA[:G*Y]]>&#x97;<![CDATA[??tHò³}î?ç²N<ÚØ¹E.Uó6Û½Àÿ¬ùO'À}¼]]>&#x98;<![CDATA[+Sý74_ú?åE?½ãI¥¤Ø¥é?%e]]>&#x97;<![CDATA[??O?åÐ2]]>&#x81;<![CDATA[ölo]]>&#x89;<![CDATA[ûRí?â]]>&#x81;<![CDATA[5Ýc«7Ö]]>&#x87;<![CDATA[?D]]>&#x86;<![CDATA[?\]©]]>&#x9a;<![CDATA[? b÷Z´¢Ç©ì]]>&#x90;<![CDATA[ûcÝùn?)gw<÷}cMf8]]>&#x8a;<![CDATA[¸?]]>&#x8b;<![CDATA[¢×ø?Ãi?®)ã0­°$×V¬?® ]]>&#x98;<![CDATA[?òF]]>&#x96;<![CDATA[?Åô#>ïAÏÔ]]>&#x84;<![CDATA[°ï¹°¦*°fQµ!øaWd´uLR'ãÏ:?â?Ëb·ÀÈ??ÊÆüy]]>&#x9b;<![CDATA[þ¾]]>&#x95;<![CDATA[ÖQN#ä??Ôà¦êJ<¯?
+çØú]]>&#x8b;<![CDATA[]¦Ò¬¬ÞÓÑ@+
+úÆf$¨=÷Ã]]>&#x95;<![CDATA[Î?
+ôYÂ_:L]]>&#x80;<![CDATA[T]]>&#x9e;<![CDATA[úÌ¸?´Z]]>&#x99;<![CDATA[Ò*c.\ü°|TÑ]]>&#x88;<![CDATA[P]]>&#x98;<![CDATA[Ñ0]]>&#x81;<![CDATA[Øp?(sØ½'?9G¤]]>&#x97;<![CDATA[×ëêJ?ã2¼Ç?
+ì²C?ÓkAñuº]]>&#x8f;<![CDATA[Zm	¥¥!§yOÝ]]>&#x88;<![CDATA[?Í%)_?c]]>&#x89;<![CDATA[ô\Î]]>&#x8b;<![CDATA[?T·¬{Å-hcùi]]>&#x82;<![CDATA[O]]>&#x9b;<![CDATA[uèRz]]>&#x84;<![CDATA[Ä1yüx]]>&#x7f;<![CDATA[??L?ö¾)?]]>&#x80;<![CDATA[àf0?Òý;Õ\UI]]>&#x8c;<![CDATA[©¾E]]>&#x83;<![CDATA[?]]>&#x97;<![CDATA[În¶W9]]>&#x83;<![CDATA[¯°]]>&#x97;<![CDATA[GÖÉ?ë"xÌ:K']]>&#x87;<![CDATA[]]>&#x87;<![CDATA[]]>&#x82;<![CDATA[N|]]>&#x80;<![CDATA[]]>&#x9c;<![CDATA[Iny?]]>&#x97;<![CDATA[C?x?pð%ow9o{?]]>&#x8f;<![CDATA[k]]>&#x81;<![CDATA[È&·Ä½Ñ]]>&#x8f;<![CDATA[U]]>&#x89;<![CDATA[?å|?ÜÙ]]>&#x9b;<![CDATA[]]>&#x91;<![CDATA[Ç'8¹ë1;g?ñ2Na]]>&#x99;<![CDATA[1·¦¯5k]]>&#x8b;<![CDATA[Ê]]>&#x8b;<![CDATA[m>møp6ÏàHT?á?î7]]>&#x95;<![CDATA[ÖÕH¦]]>&#x86;<![CDATA[³Ïó{âßyø]]>&#x8a;<![CDATA[«ª*©Õf§ó3]]>&#x97;<![CDATA[]]>&#x92;<![CDATA[5S]]>&#x7f;<![CDATA[??~Ó5]]>&#x9d;<![CDATA[ø7¬R´ ³<ª]]>&#x8f;<![CDATA[ì?Ë}?É]]>&#x93;<![CDATA[uµ<?¿
+Ú;]]>&#x9b;<![CDATA[¢¢]]>&#x9b;<![CDATA[¢Z×ã]]>&#x96;<![CDATA[CéÎõ¨?zM¬]]>&#x9b;<![CDATA[=fy)ÞSÿ­½¸ës`ñZ??]]>&#x9d;<![CDATA[V]]>&#x8c;<![CDATA[Þ¥]]>&#x8c;<![CDATA[?ß]]>&#x92;<![CDATA['à¬ÆÔ?Çô©=ü8=fY~(\ã4?ÏL4)ÜJ__:ë¶H0Ê¿Ü«mwÜ?nµÞ]]>&#x95;<![CDATA[?û¼]]>&#x9f;<![CDATA[õø8ÃOÖ1]]>&#x9e;<![CDATA[`%ÃÌ]]>&#x89;<![CDATA[]]>&#x9b;<![CDATA[9nCèA\]]>&#x9e;<![CDATA[]]>&#x8a;<![CDATA[?,E?Óß¿?/¦
+]]>&#x82;<![CDATA[THøÛ??¦9??]]>&#x9a;<![CDATA[Ó§]]>&#x98;<![CDATA[?ê= QÀ?]]>&#x88;<![CDATA[Æ }¹]]>&#x98;<![CDATA[Xj",®á¯<´¾ ë:^ZI=¶/,?ö0N?za»s¨ñgÃÍ]]>&#x83;<![CDATA[þO?¼?°Ûl"§]]>&#x84;<![CDATA[]]>&#x8e;<![CDATA[AÎ ¸á?	};]]>&#x9a;<![CDATA[?]]>&#x94;<![CDATA[Qjx&,]]>&#x88;<![CDATA[Ï]]>&#x83;<![CDATA[Õ5À' q¨CÉ]]>&#x8f;<![CDATA[§§'Gã;(k)]]>&#x84;<![CDATA[ÑÜ?]]>&#x8c;<![CDATA[è'Küñè]]>&#x9c;<![CDATA[ØN?Y»eàBÉ0jhúÇÏ]]>&#x89;<![CDATA[x]]>&#x89;<![CDATA[?]]>&#x9b;<![CDATA[A CI (>]]>&#x86;<![CDATA[?]]>&#x8d;<![CDATA[7 ¤ÂFùÇwtê?Î_]]>&#x82;<![CDATA[pìpVé*¡h°á¶?dÙ,è}Ùnü]]>&#x98;<![CDATA[¥;ë?]]>&#x81;<![CDATA[¶dh´µzg?y?ÔIqÎ±L«]]>&#x9e;<![CDATA[]]>&#x9e;<![CDATA[M¯6lG]]>&#x9c;<![CDATA[®]]>&#x82;<![CDATA[RLi]]>&#x9d;<![CDATA[n¤ÖM-.¡;ÚGÌCY	6àn?ñ]]>&#x96;<![CDATA[È~Þ?cã]]>&#x8b;<![CDATA[¥Å?$æ]]>&#x8f;<![CDATA[A»??¯í+ÙYºù]]>&#x81;<![CDATA[YãÅy]]>&#x81;<![CDATA[ 8a]]>&#x9d;<![CDATA[?Üüá?­ïkÀe?_q>` ]]>&#x81;<![CDATA[-Þ]]>&#x86;<![CDATA[ñÓ?tµ?Ä]]>&#x93;<![CDATA[ðØ?]]>&#x9d;<![CDATA[­¤4Ñ?4]]>&#x9c;<![CDATA[ÑA¢ô]]>&#x89;<![CDATA[ø]]>&#x93;<![CDATA[]]>&#x9a;<![CDATA[]]>&#x86;<![CDATA[±]]>&#x8d;<![CDATA[M?ü7 M?I¹èðr3?¡3?o¶ìÏÆA¨?YqFeÄ-?0?p?<]]>&#x83;<![CDATA[]]>&#x9e;<![CDATA[&ð:ò½¥¯CDÍ0	å?U]]>&#x94;<![CDATA[
+)]]>&#x8b;<![CDATA[Ù¨E]]>&#x88;<![CDATA[)]]>&#x95;<![CDATA[ ]]>&#x86;<![CDATA[®¯ïXQ?Ph?Íyb7·ÎB`ßá'#]]>&#x8d;<![CDATA[sÁXú]]>&#x9c;<![CDATA[·iÌýæS-¯Ë|??Åe]ÿ,Ç-?]]>&#x93;<![CDATA[á?uãHX.v9?×']]>&#x98;<![CDATA[j?]]>&#x9a;<![CDATA[8n7Ä]]>&#x94;<![CDATA[]>Tþ%W#]]>&#x8f;<![CDATA['%B]]>&#x9d;<![CDATA[]]>&#x9a;<![CDATA[Àtxð«?Û¨]]>&#x95;<![CDATA[k©ò¡5]]>&#x86;<![CDATA[^.]]>&#x96;<![CDATA[M???]]>&#x92;<![CDATA[#??]]>&#x88;<![CDATA[ü[%QN¦]Z)äÐ]]>&#x9e;<![CDATA[ÕæÅ¦F
+:*øl]]>&#x91;<![CDATA[#ó¨Òj]]>&#x98;<![CDATA[í?åë?:Ò!³[^C@]]>&#x84;<![CDATA[û?¿]]>&#x80;<![CDATA[éâþ]]>&#x86;<![CDATA[n?×Ö9õ1Êñ6Ê½]]>&#x95;<![CDATA[f\ß|]]>&#x7f;<![CDATA[÷*?x]]>&#x9c;<![CDATA[?æYZ]]>&#x9f;<![CDATA[³ÛÈ?²~¯5?]]>&#x97;<![CDATA[ïXÈ?l¤:]]>&#x93;<![CDATA[¯?]]>&#x90;<![CDATA[Fjg:\pÓè] j%?äÒæ]]>&#x80;<![CDATA[xíé]]>&#x98;<![CDATA[!°þÇSu]]>&#x9b;<![CDATA[?×/µ©??ý]]>&#x9c;<![CDATA[Øu¿Å	0sv?K?d]]>&#x7f;<![CDATA[ß?F]]>&#x8b;<![CDATA[ÚÛ^Å1P]]>&#x9f;<![CDATA[r¨Z~M?°?ºäu'rÁáNÒO?FJ??¾Ø2dhP]]>&#x9a;<![CDATA[??]]>&#x86;<![CDATA[KÞ,c¡ÎO¿]]>&#x97;<![CDATA[Ö73òÒ­?[;ÒÔ3%]]>&#x8e;<![CDATA[!è/]]>&#x9f;<![CDATA[Ú¸Ñ??â]]>&#x87;<![CDATA[]]>&#x8b;<![CDATA[^ü¨°L?)dø?âÿl"]]>&#x7f;<![CDATA[ÂK?³?«~]]>&#x91;<![CDATA[ØxU]]>&#x98;<![CDATA[¬z©S.]]>&#x9e;<![CDATA[­]]>&#x9c;<![CDATA[]]>&#x7f;<![CDATA[Ö]]>&#x7f;<![CDATA[@u]]>&#x8b;<![CDATA[]]>&#x9e;<![CDATA[?]]>&#x83;<![CDATA[£
+]]>&#x8d;<![CDATA[PJ?Ýº?M?:?]]>&#x81;<![CDATA[]]>&#x7f;<![CDATA[]]>&#x83;<![CDATA[mÐ]]>&#x8c;<![CDATA[õX(Ý]Ù?Ú?]]>&#x94;<![CDATA[W?d?°î??Õ¥¡m??7w?tß÷ý7å?EÌ°?kKVå-J]]>&#x96;<![CDATA[Ý`]]>&#x8a;<![CDATA[?]]>&#x96;<![CDATA[@?ï?F?[?¾±]]>&#x9b;<![CDATA[ÇM]]>&#x8f;<![CDATA[ÖÀâk]]>&#x8c;<![CDATA[]]>&#x8c;<![CDATA[]]>&#x81;<![CDATA[]]>&#x87;<![CDATA[ý]]>&#x88;<![CDATA[Æ¹­]]>&#x9d;<![CDATA[?cê²??µd]]>&#x8a;<![CDATA[ÔÛo¥?½<Å]]>&#x9a;<![CDATA[)º(ÿE×N?Î×]]>&#x9f;<![CDATA[Â]]>&#x9f;<![CDATA[÷ëd)ß¡c]]>&#x91;<![CDATA[?
+Ò<&PÓ\n1â6>lªË	Ø9
+ë<&Ðë]]>&#x92;<![CDATA[@"]]>&#x81;<![CDATA[ÉY]]>&#x99;<![CDATA[.]]>&#x9b;<![CDATA[.`µnt]]>&#x9b;<![CDATA[]]>&#x9c;<![CDATA[^8]]>&#x9d;<![CDATA[óÃõ]]>&#x80;<![CDATA[{?û?ê(]]>&#x81;<![CDATA[N4|ØhâÁjKÈ]]>&#x9e;<![CDATA[???N±c¡¨í:r]]>&#x8e;<![CDATA["??ÙÈuôäém]]>&#x8c;<![CDATA[$_ç]]>&#x80;<![CDATA[Þ]]>&#x9c;<![CDATA[Ëë
+j
+9ä?]]>&#x90;<![CDATA[?o ¿ôßMd«]]>&#x7f;<![CDATA[§£ý]]>&#x93;<![CDATA[ð2]]>&#x8b;<![CDATA[I34?dµ?Í]]>&#x84;<![CDATA[Ã¬;@uòø×_¿??§"ûAH¢¿çÆØå}=??h]]>&#x92;<![CDATA[g?ÉlØaG	Î]]>&#x92;<![CDATA[UÕ1]]>&#x8a;<![CDATA[©]]>&#x9c;<![CDATA[¿1#<w]]>&#x87;<![CDATA[YÌO]]>&#x82;<![CDATA[?2® ?]]>&#x96;<![CDATA[îGf]]>&#x90;<![CDATA[Å/^"]6?0óÅ??³>6]]>&#x89;<![CDATA[ª??÷¸YE]]>&#x9e;<![CDATA[µÿ?±??Ä.p]]>&#x8d;<![CDATA[oLÈ¶}E¸~r?«]]>&#x9c;<![CDATA[áÊv]]>&#x94;<![CDATA[]]>&#x89;<![CDATA[ê*ËÚ8B¥ë2?°Q?û??;?]]>&#x95;<![CDATA[CJr?tð· Uç'xGñü@Y]]>&#x7f;<![CDATA[ó?¨ÑqëÆ½ÕZ2>?×ù]]>&#x8b;<![CDATA[9û]]>&#x87;<![CDATA[?Í]]>&#x84;<![CDATA[×?ûÍß]]>&#x89;<![CDATA[q?Esµ]]>&#x87;<![CDATA[:h*s?ª«·ß_´e]]>&#x82;<![CDATA[s0Í647â^ñGø]]>&#x98;<![CDATA[§ç©?"q]]>&#x99;<![CDATA[Ü¹]]>&#x95;<![CDATA[{]]>&#x8e;<![CDATA[è Uê?ÏÒSÓ]]>&#x8e;<![CDATA[ÒÝ¾6±®???^ñm]]>&#x8b;<![CDATA[³>]]>&#x97;<![CDATA[ev]8[xÇã²Úß³$Ø`jÇf?^T?¡O?0@ó#]]>&#x9f;<![CDATA[ðL/?vÝîY1&~]]>&#x93;<![CDATA[]]>&#x92;<![CDATA[]]>&#x8a;<![CDATA[î0?NÇX@AÃ½!0¥%³u#½þX<?©·õ÷ið`?·C]]>&#x96;<![CDATA[Aèñq]]>&#x88;<![CDATA[o ]]>&#x8c;<![CDATA[?E»]]>&#x8f;<![CDATA[bä?¾6ì´ë?]]>&#x87;<![CDATA[?§º5<l ]]>&#x93;<![CDATA[C]]>&#x88;<![CDATA[ò÷nÐ[Ë~]]>&#x93;<![CDATA[It{ m]]>&#x9f;<![CDATA[Ç¶N$]]>&#x7f;<![CDATA[ûØ]]>&#x99;<![CDATA[%?¹½Q]]>&#x9b;<![CDATA[\ì]]>&#x88;<![CDATA[à?U]]>&#x92;<![CDATA[?ê?]]>&#x98;<![CDATA[æ?Öð?ò]]>&#x84;<![CDATA[jð]]>&#x97;<![CDATA[??]]>&#x81;<![CDATA[ä]]>&#x95;<![CDATA[óXä2tíûe«|´°]]>&#x82;<![CDATA[?]]>&#x93;<![CDATA[Ð3Ü]]>&#x7f;<![CDATA[UK¬]]>&#x95;<![CDATA[]]>&#x9e;<![CDATA[]]>&#x94;<![CDATA[þGæ}Ñ??ó]]>&#x8f;<![CDATA[Ðý?Î¿kæ??<]]>&#x97;<![CDATA[cÎúÑ:ÉÕ?2?¯ú«ìé]]>&#x89;<![CDATA[21U.Ò]]>&#x7f;<![CDATA[N]]>&#x87;<![CDATA[òr<*×»Íy?F2:6$]]>&#x87;<![CDATA[¾Ijo8?as?=ì?]]>&#x82;<![CDATA[à>×]]>&#x9a;<![CDATA[6ËK¡×-5B6n]]>&#x95;<![CDATA[ ?c(>]]>&#x88;<![CDATA[ééÿ&ØÉNj4Óô¿t]]>&#x8b;<![CDATA[|å«]]>&#x82;<![CDATA[W@]]>&#x7f;<![CDATA[v^Jõ@?e]]>&#x90;<![CDATA[#vÔà?[!®ê]]>&#x84;<![CDATA[?Kè]]>&#x86;<![CDATA[Äè?}ù_é]]>&#x8d;<![CDATA[Ä]]>&#x9a;<![CDATA[I£ý]]>&#x96;<![CDATA[ûÞÆ]]>&#x8f;<![CDATA[Ûæ]]>&#x89;<![CDATA[]]>&#x88;<![CDATA[v?é?]]>&#x89;<![CDATA[>1^]]>&#x8c;<![CDATA[ÀåUv<~c?té]]>&#x83;<![CDATA[üæ]]>&#x8f;<![CDATA[?]]>&#x95;<![CDATA[?Iíf~ÒÈªPÜÙ.?N{>]]>&#x8a;<![CDATA[?ý{oÚ?1]¿Øð?î]]>&#x80;<![CDATA[^µëÌ??]]>&#x9b;<![CDATA[?#P?¿´ï¶6Aq?m~
+zA=Ù]]>&#x84;<![CDATA[Z?Ó&J«£]]>&#x81;<![CDATA[]]>&#x84;<![CDATA[ÕÝ¥D?^eòÌxQa?üNJÈ;£HÓ\dá]]>&#x87;<![CDATA[Ò]]>&#x8d;<![CDATA[þVk?-éL¤^±]]>&#x99;<![CDATA[V?y¥§???N¨?6???z?nÑK)Ï;]]>&#x96;<![CDATA[A?4F]]>&#x83;<![CDATA[§?2]]>&#x7f;<![CDATA[t]]>&#x93;<![CDATA[{]]>&#x87;<![CDATA[ZÎ`]]>&#x82;<![CDATA[_?Ë§lÁ¨2â«&Bb¼àË>ÎÁRó!6ßáDÈª?þTòöÕ®fe]]>&#x9f;<![CDATA[?GZ³1>>]]>&#x86;<![CDATA[Ã¨]]>&#x88;<![CDATA[dsè¼õé0]]>&#x8d;<![CDATA[6!vÚàzýÄu]]>&#x8c;<![CDATA[?+;Üo8©Æ?ª]]>&#x9d;<![CDATA[F9câó&´ñÇ?Âµv#&]]>&#x90;<![CDATA[eå??Û¬´ø33uÛCí?é?1H?]]>&#x8c;<![CDATA[\¶«
+0Ðk
+Ùsn\S@ ]]>&#x84;<![CDATA[ü¹mMØ÷Üxbks]]>&#x8d;<![CDATA[]]>&#x8a;<![CDATA[ÄJë*¦0à]]>&#x90;<![CDATA[xªè]]>&#x90;<![CDATA[Ô1]]>&#x9b;<![CDATA[]]>&#x91;<![CDATA[?]]>&#x82;<![CDATA[«?]]>&#x80;<![CDATA[?Ö?]]>&#x7f;<![CDATA[À§¶]]>&#x86;<![CDATA[e?]]>&#x86;<![CDATA[]]>&#x7f;<![CDATA[?´|6]]>&#x95;<![CDATA[?]]>&#x98;<![CDATA[ýgjMm¶]]>&#x8a;<![CDATA[+©zÓcúEóñ]]>&#x90;<![CDATA[¿·ê^qY´ü]]>&#x87;<![CDATA[â]]>&#x97;<![CDATA[]]>&#x83;<![CDATA[Ë??yòÙW]]>&#x80;<![CDATA[?]]>&#x8f;<![CDATA[?]]>&#x88;<![CDATA[]]>&#x9e;<![CDATA[c§¾?ÄV3q]]>&#x8e;<![CDATA[]]>&#x95;<![CDATA[]]>&#x93;<![CDATA[8?BIDôwFû©´±:
+Fè¡]]>&#x91;<![CDATA[]]>&#x8b;<![CDATA[?µlò¾Ê]]>&#x83;<![CDATA[àY~ü]]>&#x7f;<![CDATA[t?]]>&#x9d;<![CDATA[2]]>&#x88;<![CDATA[Ë°^ðU_Ð°àaÙ?dVÌ?c¥¹C¦]]>&#x83;<![CDATA[?ùüÖ?]]>&#x94;<![CDATA[Wñß-Ï]]>&#x84;<![CDATA[ÇJY]]>&#x93;<![CDATA[???8?GÎ'ÕH´BÚ]]>&#x94;<![CDATA[]]>&#x90;<![CDATA[õB]]]>&#x7f;<![CDATA[æ?;]]>&#x98;<![CDATA[íÁ0[Ëyý¯®³ÉF]]>&#x81;<![CDATA[Ú®»E®I]]>&#x92;<![CDATA[B?@-Ö×]]>&#x91;<![CDATA[fýÉ¿`0a5Á?mÏDáÚ¦O[QhDßuÁ?3@æ§#
+&üF]]>&#x90;<![CDATA[«æÉh?Ù½¹Ýwdß&jÄB?è??¸]]>&#x8f;<![CDATA[nÌ½"w<²~â'=J{Íþ ¥A?õ¬Ï?]]>&#x95;<![CDATA[]]>&#x8a;<![CDATA[??]]>&#x88;<![CDATA[ãï?P]]>&#x92;<![CDATA[ç?uí]]>&#x80;<![CDATA[L>#¡é¸]]>&#x9d;<![CDATA[]]>&#x9d;<![CDATA[ºnó«¾Ú]]>&#x90;<![CDATA[­ñô ]]>&#x9f;<![CDATA[¡2??<Àñèº9ùî?É??Ô_ÛØh/
+÷í/]]>&#x9c;<![CDATA[?]]>&#x96;<![CDATA[H2]]>&#x82;<![CDATA[¼ÌC
+
+======== REQUEST ========
+GET /uas/pack/missing HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (132 bytes) --------
+HTTP/1.1 404 Not Found\n
+content-type: text/plain; charset=utf-8\n
+content-length: 26\n
+connection: close\n
+\n
+no pack with id 'missing'
+
+
+stats=SniffStats[connections=4, minecraft=0, http=4, ambiguousBytes=0, timeoutClosed=0]
+vanillaReceived=0
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

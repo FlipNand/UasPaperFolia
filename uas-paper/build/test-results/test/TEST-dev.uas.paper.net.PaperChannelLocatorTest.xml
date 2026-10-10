@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.paper.net.PaperChannelLocatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.708Z" hostname="Aris-MacBook-Air.local" time="0.113">
+  <properties/>
+  <testcase name="givesUpWithAnActionableTraceRatherThanSilence()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.004"/>
+  <testcase name="anElementWithoutAChannelAccessorIsSkippedAndReported()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.089"/>
+  <testcase name="findsTheTypedSocketFieldOnAPaper2623ShapedListener()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.002"/>
+  <testcase name="acceptsARootThatIsItselfTheListener()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.001"/>
+  <testcase name="neverMistakesAPlayerChannelForAListeningChannel()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.001"/>
+  <testcase name="findsAChannelBehindAChannelFuture()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.002"/>
+  <testcase name="anEmptyChannelTypedHolderIsReportedAsNotYetBound()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.002"/>
+  <testcase name="theLiveEntryPointIsSafeToCallWithoutAServer()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.004"/>
+  <testcase name="findsABareChannelWithTheOlderAccessorName()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.001"/>
+  <testcase name="findsAChannelInsideAnArrayContainer()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.001"/>
+  <testcase name="theTraceRecordsEveryHopItTook()" classname="dev.uas.paper.net.PaperChannelLocatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+2026-10-10T23:16:47.741605Z junit-timeout-thread-9 ERROR Log4j API could not find a logging provider.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.protocol.FramePipelineTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:51.014Z" hostname="Aris-MacBook-Air.local" time="0.029">
+  <properties/>
+  <testcase name="a frame written whole is decoded back to an identical packet" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.004"/>
+  <testcase name="byte-at-a-time feeding still yields exactly one frame" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.002"/>
+  <testcase name="a frame split at every byte boundary still decodes exactly once" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.014"/>
+  <testcase name="reserved flag bits are rejected" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.001"/>
+  <testcase name="the encoder and decoder round-trip through the pipeline" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.002"/>
+  <testcase name="truncated input produces nothing and does not throw" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.001"/>
+  <testcase name="two frames in one buffer both decode, in order" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.001"/>
+  <testcase name="an oversized declared payload length is rejected before allocating" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.001"/>
+  <testcase name="a bad magic byte is a hard protocol error" classname="dev.uas.netty.protocol.FramePipelineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

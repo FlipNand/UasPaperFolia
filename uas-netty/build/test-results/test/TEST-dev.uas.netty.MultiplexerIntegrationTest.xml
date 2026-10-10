@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.MultiplexerIntegrationTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.172Z" hostname="Aris-MacBook-Air.local" time="1.471">
+  <properties/>
+  <testcase name="both protocols work on separate connections to the same port" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.456"/>
+  <testcase name="If-None-Match returns 304 with no body" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.016"/>
+  <testcase name="a stale If-None-Match falls through to a full 200" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.019"/>
+  <testcase name="suffix ranges, open-ended ranges and multi-range reassembly all line up" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.044"/>
+  <testcase name="the child-channel hook is installed before the bootstrap acceptor" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.006"/>
+  <testcase name="a handshake delivered one byte at a time is reassembled intact" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.213"/>
+  <testcase name="errors and diagnostics endpoints behave" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.017"/>
+  <testcase name="keep-alive reuses one HTTP connection for several requests" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.018"/>
+  <testcase name="a handshake whose length prefix looks like an HTTP verb prefix is still classified correctly" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.267"/>
+  <testcase name="HEAD reports the length with no body" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.007"/>
+  <testcase name="a legacy server-list ping passes straight through" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.143"/>
+  <testcase name="a vanilla handshake reaches the vanilla pipeline byte-for-byte and the sniffer detaches" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.173"/>
+  <testcase name="a Range request returns 206 with the exact slice and Content-Range" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.012"/>
+  <testcase name="every relayed buffer arrives with exactly one reference and is fully released" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.038"/>
+  <testcase name="an unsatisfiable range returns 416 with bytes */length" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.01"/>
+  <testcase name="the harness is armed: leak detection is at the most aggressive level" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.007"/>
+  <testcase name="GET /uas/pack/{id} streams the exact archive with cache headers" classname="dev.uas.netty.MultiplexerIntegrationTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

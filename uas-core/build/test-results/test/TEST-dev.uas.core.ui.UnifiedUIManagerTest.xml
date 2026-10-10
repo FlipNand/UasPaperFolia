@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.core.ui.UnifiedUIManagerTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:49.297Z" hostname="Aris-MacBook-Air.local" time="0.014">
+  <properties/>
+  <testcase name="recentAccessSurvivesEviction()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.004"/>
+  <testcase name="targetChangeReplansAnOpenUi()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="unregisteringASchemaClosesAnyUiUsingIt()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.001"/>
+  <testcase name="bedrockUsesNativeFormsForNativePresentations()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="refusesToOpenAnUnregisteredSchema()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="javaGetsAMenuForSlotPresentationsAndAnOverlayOtherwise()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.001"/>
+  <testcase name="resetRestoresDeclaredInitialValues()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="evictsUnderPressureInsteadOfGrowingForever()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.001"/>
+  <testcase name="describeReportsTheWholePicture()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="forgetDropsEverythingAboutAPlayer()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="bedrockDegradesANonNativePresentationToAFormAndSaysWhy()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.002"/>
+  <testcase name="bedrockCannotHostInventorySlotsAndSaysSo()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.001"/>
+  <testcase name="stateUpdatesForAClosedUiAreRejected()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="bedrockUsesCustomJsonWhenFormsCannotExpressTheSchema()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.001"/>
+  <testcase name="batchStateUpdateIsAllOrNothing()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="aFormExpressibleTreeStillNeedsTheFallbackToBeEnabled()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.001"/>
+  <testcase name="declaredLayoutUnitsSurviveTheRoundTrip()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.0"/>
+  <testcase name="openTracksStateAndAdvancesRevisions()" classname="dev.uas.core.ui.UnifiedUIManagerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

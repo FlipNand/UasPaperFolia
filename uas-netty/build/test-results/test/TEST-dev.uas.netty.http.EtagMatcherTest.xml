@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.http.EtagMatcherTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:48.657Z" hostname="Aris-MacBook-Air.local" time="0.011">
+  <properties/>
+  <testcase name="a weak tag still matches on If-None-Match" classname="dev.uas.netty.http.EtagMatcherTest" time="0.001"/>
+  <testcase name="an exact tag matches, and a wildcard matches anything" classname="dev.uas.netty.http.EtagMatcherTest" time="0.0"/>
+  <testcase name="a list is searched, and quoting is normalised" classname="dev.uas.netty.http.EtagMatcherTest" time="0.001"/>
+  <testcase name="a stale tag does not match" classname="dev.uas.netty.http.EtagMatcherTest" time="0.001"/>
+  <testcase name="an absent or blank header never matches" classname="dev.uas.netty.http.EtagMatcherTest" time="0.001"/>
+  <testcase name="If-Match uses strong comparison, so a weak tag never matches" classname="dev.uas.netty.http.EtagMatcherTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

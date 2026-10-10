@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "instrument\u003dchime,note\u003d1,powered\u003dtrue": {
+      "model": "uas:block/crystal_lamp"
+    }
+  }
+}

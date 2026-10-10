@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - dumpRawResponse()</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<div class="breadcrumbs">
+<a class="breadcrumb" href="../index.html">all</a> &gt; 
+<a class="breadcrumb" href="index.html">dev.uas.netty.RawHttpProbeTest</a> &gt; 
+<span class="breadcrumb">dumpRawResponse()</span>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="successGroup" href="#">Gradle Test Run :uas-netty:test</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Gradle Test Run :uas-netty:test</h2>
+<h1>dumpRawResponse()</h1>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="" href="#">summary</a>
+</li>
+<li>
+<a class="" href="#">standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>summary</h2>
+<div>
+<div class="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>skipped</p>
+</div>
+</td>
+<td>
+<div class="infoBox duration">
+<div class="counter">0.013s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="tab">
+<h2>standard output</h2>
+<span class="code">
+<div class="clipboard-copy-btn-container">
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="root-0-test-stdout-dumpRawResponse()">Copy</button>
+</div>
+<pre id="root-0-test-stdout-dumpRawResponse()">bind=/127.0.0.1:50607
+hooked=true
+
+======== REQUEST ========
+GET /uas/ping HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (104 bytes) --------
+HTTP/1.1 200 OK\n
+content-type: text/plain; charset=utf-8\n
+content-length: 6\n
+connection: close\n
+\n
+uas/1
+
+
+======== REQUEST ========
+GET /uas/packs HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (202 bytes) --------
+HTTP/1.1 200 OK\n
+content-type: text/plain; charset=utf-8\n
+content-length: 102\n
+connection: close\n
+\n
+[{&quot;id&quot;:&quot;v1&quot;,&quot;sha1&quot;:&quot;93ffe7cd6a0e274f18308cbb312d68cd5312d209&quot;,&quot;size&quot;:4096,&quot;name&quot;:&quot;UAS test pack v1&quot;}]
+
+
+======== REQUEST ========
+GET /uas/pack/v1 HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (4417 bytes) --------
+HTTP/1.1 200 OK\n
+content-type: application/zip\n
+etag: &quot;93ffe7cd6a0e274f18308cbb312d68cd5312d209&quot;\n
+cache-control: public, max-age=31536000, immutable\n
+accept-ranges: bytes\n
+date: Sat, 10 Oct 2026 23:16:48 GMT\n
+last-modified: Sat, 10 Oct 2026 23:16:48 GMT\n
+vary: accept-encoding\n
+content-length: 4096\n
+connection: close\n
+\n
+vVqÖc?0q&quot;ã&gt;k®Ù¿?¼Z_&#x91;Lº?&#x81;Æ¹áG?Y&#x89;®ñ?ñÌ?øGÀz?fw¶!&#x81;0&#x8e;&#x98;æYÔ?&#x86;Å¹&#x91;KÄÂÂ?laªâª&gt;&#x9d;xÍÝþÂáY&quot;da±û?ËQû¼&#x99;æ5áö?*?«¥&#x9d;9u??þ&#x94;y?A¡&#x8f;FI&#x91;å&quot;.&#x89;,?óä,Yõ«¯®ãº&#x81;\n
++Hû&#x9a;&#x95;?ðøÍ&#x82;¥&#x92;??·P??&#x9b;ÇÀ.?i?ß+]H??	÷/7\?&amp;&#x97;â$?ÕÑ&#x8a;À?F&#x82;»&#x99;Ç?Ô&#x90;¼Æ²g?&#x88;?XúÞm|ü$±¿TL&#x8c;mà&#x9f;O0Ïâë¶~È@&#x93;ÙÿÔXæ/?\ùÒv??8\Ê&#x7f;þ?ia?M&#x80;&#x9b;MÿÖ?ú&#x7f;cÕ?¿«?f²¤É&#x9c;?ç&#x96;#?þ}?&#x93;·?[º'ã?%¦&#x94;?Â=»&quot;#66çG&quot;~cú?¾©&#x83;?T\ÅâÈ?&#x95;ýï'Ñ&#x93;'Òà@?ó??NÀ/õa&#x9c;ño?WI?&#x9b;Y?é.??;3Q&gt;Õö&#x8b;&amp;&lt;ë't&#x99;m0&#x9a;b¬zõ²24OrÊhhvó¥nð?ð&#x89;$'Aó?íþ5¯&#x95;ÄâHa¸DSªOUª²þf 5ß?k&#x88;¬&lt;ÙNin&#x82;)Ä­Õ&#x8a;ÖM&#x89;?&#x9a;óÌNzÜÃ·ý}­¯$$Û&#x84;¹Yú¢?»1?ìÕ:T?q¯ìmdvÊ??nô&#x8d;Åk»ñÌÄë?öS??&#x8d;iQ?ªmæ?ï×?ð&#x9c;¯,û?ë ?M&#x92;&#x9e;?};Õ?ó}0ÍY
+ÆÉáëÇ?3î¼ñX&#x8b;&#x9e;]NH&#x8b;&amp;è?&#x97;Z³Iû8¬µ&#x99;$¦&#x9d;&#x89;Hp?&#x93;Ö&#x88;Ü@QUdÒju$LwXkÂäYöÎ&#x96;&#x94;lUé¶¬.Õ*Ä!±6&#x7f;&#x82;?i7ìíúU9X=[²å&#x83;`n&#x8c;á&#x84;ù/`-k03ð??&#x9a;J?÷;?Û?³D&#x8b;&#x8d;I@Ø]jÙ8­÷D=wÜ;à&#x86;Í)KE&#x88;ÈZú?]&#x92;1Ì}Þ&lt;&#x8c;ö?GA&#x95;HÜ&#x8a;Rp8R%Â?¡?&#x8f;HUZ?¸í¸|&#x9b;Ñÿ0G§ðt$V6A|wÒØEù·¦&#x8e;&#x87;	MfEÀ¬?E¸??ÆU?&#x97;¤?¾É;Æ¾?×5äs?mg?k?À´4R?&#x86;?&#x81;?Ì÷?ÝYñ÷&lt;\&#x9b;Kõ5 ?÷Ä&amp;7Ä?gåí&quot;?4Ñ?|ê&#x9d;&#x83;¤½&#x8d;2&#x90;&#x9b;?M³&amp;?&#x84;Þ&#x8d;&#x9c;£Ë??_²?Óa½{yE 3wäÝQ&#x80;cò5ú&#x84;Es`¼¦;ªð6®&gt;ñn{???3Vi&#x8e;Ç	ûjð^?&#x90;°/?K&#x98;~?%?ôfªú?ô§&#x9a;so&#x88;áÃÿ&#x9d;©]&#x88;kµÔ&#x91;³.?ã?u©üyôÅH	?w&#x7f;Ï&#x98;d5G&amp;KX&#x83;?ù'?8?õØ}&#x93;x¥ÄEA?¥[&#x9b;öKr­?&#x7f;¼,iý3}ùJñ&#x89;ò©µÆ³PHèÖ&#x88;ìúÿbO&#x9c;}jù&#x89;æ&#x93;?®ß??ÎQn&#x9e;cÈ?ëÅ?ob,&#x9b;]¥Âg&#x96;oÈh¼ÁÒÀLa
+ëc&#x86;Ò8#?ÞÖ³ù&#x8e;ß&#x84;5³ Ï³&#x94; Au?qäx$¨×^=&#x7f;&#x7f;ëªÅ´Î?~LÞÍÇ?sçsâ?ùîC8ÿ·õ!?tx!?S¬¼_0&#x99;:G*Y&#x97;??tHò³}î?ç²N&lt;ÚØ¹E.Uó6Û½Àÿ¬ùO'À}¼&#x98;+Sý74_ú?åE?½ãI¥¤Ø¥é?%e&#x97;??O?åÐ2&#x81;ölo&#x89;ûRí?â&#x81;5Ýc«7Ö&#x87;?D&#x86;?\]©&#x9a;? b÷Z´¢Ç©ì&#x90;ûcÝùn?)gw&lt;÷}cMf8&#x8a;¸?&#x8b;¢×ø?Ãi?®)ã0­°$×V¬?® &#x98;?òF&#x96;?Åô#&gt;ïAÏÔ&#x84;°ï¹°¦*°fQµ!øaWd´uLR'ãÏ:?â?Ëb·ÀÈ??ÊÆüy&#x9b;þ¾&#x95;ÖQN#ä??Ôà¦êJ&lt;¯?
+çØú&#x8b;]¦Ò¬¬ÞÓÑ@+
+úÆf$¨=÷Ã&#x95;Î?
+ôYÂ_:L&#x80;T&#x9e;úÌ¸?´Z&#x99;Ò*c.\ü°|TÑ&#x88;P&#x98;Ñ0&#x81;Øp?(sØ½'?9G¤&#x97;×ëêJ?ã2¼Ç?
+ì²C?ÓkAñuº&#x8f;Zm	¥¥!§yOÝ&#x88;?Í%)_?c&#x89;ô\Î&#x8b;?T·¬{Å-hcùi&#x82;O&#x9b;uèRz&#x84;Ä1yüx&#x7f;??L?ö¾)?&#x80;àf0?Òý;Õ\UI&#x8c;©¾E&#x83;?&#x97;În¶W9&#x83;¯°&#x97;GÖÉ?ë&quot;xÌ:K'&#x87;&#x87;&#x82;N|&#x80;&#x9c;Iny?&#x97;C?x?pð%ow9o{?&#x8f;k&#x81;È&amp;·Ä½Ñ&#x8f;U&#x89;?å|?ÜÙ&#x9b;&#x91;Ç'8¹ë1;g?ñ2Na&#x99;1·¦¯5k&#x8b;Ê&#x8b;m&gt;møp6ÏàHT?á?î7&#x95;ÖÕH¦&#x86;³Ïó{âßyø&#x8a;«ª*©Õf§ó3&#x97;&#x92;5S&#x7f;??~Ó5&#x9d;ø7¬R´ ³&lt;ª&#x8f;ì?Ë}?É&#x93;uµ&lt;?¿
+Ú;&#x9b;¢¢&#x9b;¢Z×ã&#x96;CéÎõ¨?zM¬&#x9b;=fy)ÞSÿ­½¸ës`ñZ??&#x9d;V&#x8c;Þ¥&#x8c;?ß&#x92;'à¬ÆÔ?Çô©=ü8=fY~(\ã4?ÏL4)ÜJ__:ë¶H0Ê¿Ü«mwÜ?nµÞ&#x95;?û¼&#x9f;õø8ÃOÖ1&#x9e;`%ÃÌ&#x89;&#x9b;9nCèA\&#x9e;&#x8a;?,E?Óß¿?/¦
+&#x82;THøÛ??¦9??&#x9a;Ó§&#x98;?ê= QÀ?&#x88;Æ }¹&#x98;Xj&quot;,®á¯&lt;´¾ ë:^ZI=¶/,?ö0N?za»s¨ñgÃÍ&#x83;þO?¼?°Ûl&quot;§&#x84;&#x8e;AÎ ¸á?	};&#x9a;?&#x94;Qjx&amp;,&#x88;Ï&#x83;Õ5À' q¨CÉ&#x8f;§§'Gã;(k)&#x84;ÑÜ?&#x8c;è'Küñè&#x9c;ØN?Y»eàBÉ0jhúÇÏ&#x89;x&#x89;?&#x9b;A CI (&gt;&#x86;?&#x8d;7 ¤ÂFùÇwtê?Î_&#x82;pìpVé*¡h°á¶?dÙ,è}Ùnü&#x98;¥;ë?&#x81;¶dh´µzg?y?ÔIqÎ±L«&#x9e;&#x9e;M¯6lG&#x9c;®&#x82;RLi&#x9d;n¤ÖM-.¡;ÚGÌCY	6àn?ñ&#x96;È~Þ?cã&#x8b;¥Å?$æ&#x8f;A»??¯í+ÙYºù&#x81;YãÅy&#x81; 8a&#x9d;?Üüá?­ïkÀe?_q&gt;` &#x81;-Þ&#x86;ñÓ?tµ?Ä&#x93;ðØ?&#x9d;­¤4Ñ?4&#x9c;ÑA¢ô&#x89;ø&#x93;&#x9a;&#x86;±&#x8d;M?ü7 M?I¹èðr3?¡3?o¶ìÏÆA¨?YqFeÄ-?0?p?&lt;&#x83;&#x9e;&amp;ð:ò½¥¯CDÍ0	å?U&#x94;
+)&#x8b;Ù¨E&#x88;)&#x95; &#x86;®¯ïXQ?Ph?Íyb7·ÎB`ßá'#&#x8d;sÁXú&#x9c;·iÌýæS-¯Ë|??Åe]ÿ,Ç-?&#x93;á?uãHX.v9?×'&#x98;j?&#x9a;8n7Ä&#x94;]&gt;Tþ%W#&#x8f;'%B&#x9d;&#x9a;Àtxð«?Û¨&#x95;k©ò¡5&#x86;^.&#x96;M???&#x92;#??&#x88;ü[%QN¦]Z)äÐ&#x9e;ÕæÅ¦F
+:*øl&#x91;#ó¨Òj&#x98;í?åë?:Ò!³[^C@&#x84;û?¿&#x80;éâþ&#x86;n?×Ö9õ1Êñ6Ê½&#x95;f\ß|&#x7f;÷*?x&#x9c;?æYZ&#x9f;³ÛÈ?²~¯5?&#x97;ïXÈ?l¤:&#x93;¯?&#x90;Fjg:\pÓè] j%?äÒæ&#x80;xíé&#x98;!°þÇSu&#x9b;?×/µ©??ý&#x9c;Øu¿Å	0sv?K?d&#x7f;ß?F&#x8b;ÚÛ^Å1P&#x9f;r¨Z~M?°?ºäu'rÁáNÒO?FJ??¾Ø2dhP&#x9a;??&#x86;KÞ,c¡ÎO¿&#x97;Ö73òÒ­?[;ÒÔ3%&#x8e;!è/&#x9f;Ú¸Ñ??â&#x87;&#x8b;^ü¨°L?)dø?âÿl&quot;&#x7f;ÂK?³?«~&#x91;ØxU&#x98;¬z©S.&#x9e;­&#x9c;&#x7f;Ö&#x7f;@u&#x8b;&#x9e;?&#x83;£
+&#x8d;PJ?Ýº?M?:?&#x81;&#x7f;&#x83;mÐ&#x8c;õX(Ý]Ù?Ú?&#x94;W?d?°î??Õ¥¡m??7w?tß÷ý7å?EÌ°?kKVå-J&#x96;Ý`&#x8a;?&#x96;@?ï?F?[?¾±&#x9b;ÇM&#x8f;ÖÀâk&#x8c;&#x8c;&#x81;&#x87;ý&#x88;Æ¹­&#x9d;?cê²??µd&#x8a;ÔÛo¥?½&lt;Å&#x9a;)º(ÿE×N?Î×&#x9f;Â&#x9f;÷ëd)ß¡c&#x91;?
+Ò&lt;&amp;PÓ\n1â6&gt;lªË	Ø9
+ë&lt;&amp;Ðë&#x92;@&quot;&#x81;ÉY&#x99;.&#x9b;.`µnt&#x9b;&#x9c;^8&#x9d;óÃõ&#x80;{?û?ê(&#x81;N4|ØhâÁjKÈ&#x9e;???N±c¡¨í:r&#x8e;&quot;??ÙÈuôäém&#x8c;$_ç&#x80;Þ&#x9c;Ëë
+j
+9ä?&#x90;?o ¿ôßMd«&#x7f;§£ý&#x93;ð2&#x8b;I34?dµ?Í&#x84;Ã¬;@uòø×_¿??§&quot;ûAH¢¿çÆØå}=??h&#x92;g?ÉlØaG	Î&#x92;UÕ1&#x8a;©&#x9c;¿1#&lt;w&#x87;YÌO&#x82;?2® ?&#x96;îGf&#x90;Å/^&quot;]6?0óÅ??³&gt;6&#x89;ª??÷¸YE&#x9e;µÿ?±??Ä.p&#x8d;oLÈ¶}E¸~r?«&#x9c;áÊv&#x94;&#x89;ê*ËÚ8B¥ë2?°Q?û??;?&#x95;CJr?tð· Uç'xGñü@Y&#x7f;ó?¨ÑqëÆ½ÕZ2&gt;?×ù&#x8b;9û&#x87;?Í&#x84;×?ûÍß&#x89;q?Esµ&#x87;:h*s?ª«·ß_´e&#x82;s0Í647â^ñGø&#x98;§ç©?&quot;q&#x99;Ü¹&#x95;{&#x8e;è Uê?ÏÒSÓ&#x8e;ÒÝ¾6±®???^ñm&#x8b;³&gt;&#x97;ev]8[xÇã²Úß³$Ø`jÇf?^T?¡O?0@ó#&#x9f;ðL/?vÝîY1&amp;~&#x93;&#x92;&#x8a;î0?NÇX@AÃ½!0¥%³u#½þX&lt;?©·õ÷ið`?·C&#x96;Aèñq&#x88;o &#x8c;?E»&#x8f;bä?¾6ì´ë?&#x87;?§º5&lt;l &#x93;C&#x88;ò÷nÐ[Ë~&#x93;It{ m&#x9f;Ç¶N$&#x7f;ûØ&#x99;%?¹½Q&#x9b;\ì&#x88;à?U&#x92;?ê?&#x98;æ?Öð?ò&#x84;jð&#x97;??&#x81;ä&#x95;óXä2tíûe«|´°&#x82;?&#x93;Ð3Ü&#x7f;UK¬&#x95;&#x9e;&#x94;þGæ}Ñ??ó&#x8f;Ðý?Î¿kæ??&lt;&#x97;cÎúÑ:ÉÕ?2?¯ú«ìé&#x89;21U.Ò&#x7f;N&#x87;òr&lt;*×»Íy?F2:6$&#x87;¾Ijo8?as?=ì?&#x82;à&gt;×&#x9a;6ËK¡×-5B6n&#x95; ?c(&gt;&#x88;ééÿ&amp;ØÉNj4Óô¿t&#x8b;|å«&#x82;W@&#x7f;v^Jõ@?e&#x90;#vÔà?[!®ê&#x84;?Kè&#x86;Äè?}ù_é&#x8d;Ä&#x9a;I£ý&#x96;ûÞÆ&#x8f;Ûæ&#x89;&#x88;v?é?&#x89;&gt;1^&#x8c;ÀåUv&lt;~c?té&#x83;üæ&#x8f;?&#x95;?Iíf~ÒÈªPÜÙ.?N{&gt;&#x8a;?ý{oÚ?1]¿Øð?î&#x80;^µëÌ??&#x9b;?#P?¿´ï¶6Aq?m~
+zA=Ù&#x84;Z?Ó&amp;J«£&#x81;&#x84;ÕÝ¥D?^eòÌxQa?üNJÈ;£HÓ\dá&#x87;Ò&#x8d;þVk?-éL¤^±&#x99;V?y¥§???N¨?6???z?nÑK)Ï;&#x96;A?4F&#x83;§?2&#x7f;t&#x93;{&#x87;ZÎ`&#x82;_?Ë§lÁ¨2â«&amp;Bb¼àË&gt;ÎÁRó!6ßáDÈª?þTòöÕ®fe&#x9f;?GZ³1&gt;&gt;&#x86;Ã¨&#x88;dsè¼õé0&#x8d;6!vÚàzýÄu&#x8c;?+;Üo8©Æ?ª&#x9d;F9câó&amp;´ñÇ?Âµv#&amp;&#x90;eå??Û¬´ø33uÛCí?é?1H?&#x8c;\¶«
+0Ðk
+Ùsn\S@ &#x84;ü¹mMØ÷Üxbks&#x8d;&#x8a;ÄJë*¦0à&#x90;xªè&#x90;Ô1&#x9b;&#x91;?&#x82;«?&#x80;?Ö?&#x7f;À§¶&#x86;e?&#x86;&#x7f;?´|6&#x95;?&#x98;ýgjMm¶&#x8a;+©zÓcúEóñ&#x90;¿·ê^qY´ü&#x87;â&#x97;&#x83;Ë??yòÙW&#x80;?&#x8f;?&#x88;&#x9e;c§¾?ÄV3q&#x8e;&#x95;&#x93;8?BIDôwFû©´±:
+Fè¡&#x91;&#x8b;?µlò¾Ê&#x83;àY~ü&#x7f;t?&#x9d;2&#x88;Ë°^ðU_Ð°àaÙ?dVÌ?c¥¹C¦&#x83;?ùüÖ?&#x94;Wñß-Ï&#x84;ÇJY&#x93;???8?GÎ'ÕH´BÚ&#x94;&#x90;õB]&#x7f;æ?;&#x98;íÁ0[Ëyý¯®³ÉF&#x81;Ú®»E®I&#x92;B?@-Ö×&#x91;fýÉ¿`0a5Á?mÏDáÚ¦O[QhDßuÁ?3@æ§#
+&amp;üF&#x90;«æÉh?Ù½¹Ýwdß&amp;jÄB?è??¸&#x8f;nÌ½&quot;w&lt;²~â'=J{Íþ ¥A?õ¬Ï?&#x95;&#x8a;??&#x88;ãï?P&#x92;ç?uí&#x80;L&gt;#¡é¸&#x9d;&#x9d;ºnó«¾Ú&#x90;­ñô &#x9f;¡2??&lt;Àñèº9ùî?É??Ô_ÛØh/
+÷í/&#x9c;?&#x96;H2&#x82;¼ÌC
+
+======== REQUEST ========
+GET /uas/pack/missing HTTP/1.1\n
+Host: 127.0.0.1\n
+Connection: close\n
+\n
+-------- RESPONSE (132 bytes) --------
+HTTP/1.1 404 Not Found\n
+content-type: text/plain; charset=utf-8\n
+content-length: 26\n
+connection: close\n
+\n
+no pack with id 'missing'
+
+
+stats=SniffStats[connections=4, minecraft=0, http=4, ambiguousBytes=0, timeoutClosed=0]
+vanillaReceived=0
+
+</pre>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.8.0</a> at Oct 10, 2026, 7:16:51 p.m.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.memory.NettyAllocatorTuningTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:50.983Z" hostname="Aris-MacBook-Air.local" time="0.031">
+  <properties/>
+  <testcase name="a constructed allocator reports exactly the requested chunk size and arenas" classname="dev.uas.netty.memory.NettyAllocatorTuningTest" time="0.006"/>
+  <testcase name="the tuning maps onto io.netty.allocator.* properties" classname="dev.uas.netty.memory.NettyAllocatorTuningTest" time="0.0"/>
+  <testcase name="with caches disabled the arena holds nothing once buffers are released" classname="dev.uas.netty.memory.NettyAllocatorTuningTest" time="0.021"/>
+  <testcase name="the low-RAM preset has the documented geometry" classname="dev.uas.netty.memory.NettyAllocatorTuningTest" time="0.001"/>
+  <testcase name="an allocator left on Netty's defaults is reported, not silently accepted" classname="dev.uas.netty.memory.NettyAllocatorTuningTest" time="0.0"/>
+  <testcase name="inconsistent geometry is rejected rather than silently rounded" classname="dev.uas.netty.memory.NettyAllocatorTuningTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.paper.platform.PlayerWorkQueueTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.821Z" hostname="Aris-MacBook-Air.local" time="0.085">
+  <properties/>
+  <testcase name="aBurstForOnePlayerBecomesOneScheduledTask()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.067"/>
+  <testcase name="workSubmittedDuringADrainIsExecutedRatherThanStranded()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.001"/>
+  <testcase name="forgettingAPlayerOnQuitReleasesTheirMailbox()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.0"/>
+  <testcase name="aRejectedSchedulingAttemptDropsTheBatchRatherThanLeavingAStuckLatch()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.0"/>
+  <testcase name="aLongLivedServerDoesNotAccumulateAMailboxPerPlayerWhoeverJoined()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.003"/>
+  <testcase name="aFailingTaskDoesNotStrandTheRestOfTheBatch()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.009"/>
+  <testcase name="theCoalescingRatioReportsTheSaving()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.001"/>
+  <testcase name="differentPlayersGetTheirOwnDrain()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.0"/>
+  <testcase name="anOfflinePlayerIsRejectedRatherThanRetained()" classname="dev.uas.paper.platform.PlayerWorkQueueTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Oct 10, 2026 7:16:47 P.M. dev.uas.paper.platform.PlayerWorkQueue drain
+WARNING: UAS per-player task failed for fake-76c32ccc-0ced-4602-b8af-09d7b103effc; continuing the batch
+java.lang.IllegalStateException: this listener is broken
+	at dev.uas.paper.platform.PlayerWorkQueueTest.lambda$aFailingTaskDoesNotStrandTheRestOfTheBatch$0(PlayerWorkQueueTest.java:250)
+	at dev.uas.paper.platform.PlayerWorkQueue.drain(PlayerWorkQueue.java:155)
+	at dev.uas.paper.platform.PlayerWorkQueue.lambda$submit$0(PlayerWorkQueue.java:94)
+	at dev.uas.paper.platform.PlayerWorkQueueTest$ManualScheduler.tick(PlayerWorkQueueTest.java:131)
+	at dev.uas.paper.platform.PlayerWorkQueueTest.aFailingTaskDoesNotStrandTheRestOfTheBatch(PlayerWorkQueueTest.java:254)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.api.AssertTimeoutPreemptively.lambda$submitTask$3(AssertTimeoutPreemptively.java:95)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+]]></system-err>
+</testsuite>

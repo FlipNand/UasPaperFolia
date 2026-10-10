@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.core.pack.ForkedLowRamCompileTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.422Z" hostname="Aris-MacBook-Air.local" time="1.658">
+  <properties/>
+  <testcase name="compilesAPackTwiceTheHeapInside48m(Path)" classname="dev.uas.core.pack.ForkedLowRamCompileTest" time="1.656"/>
+  <system-out><![CDATA[[uas] forked compiler exit=0
+pack 'forked-low-ram': 7 entries (4 stored), 112MiB uncompressed -> 96MiB archive, sha1=bf670fb98f6ff2f472a39bcadcabbbb398572329, peakHeap=4MiB of 46MiB (10.2%), profile=low_ram
+
+[uas] forked compile report: {"packId":"forked-low-ram","output":"/var/folders/6r/f3b9zpk91fnff3q5l5v2k96h0000gn/T/junit-545593098751889269/pack-one.zip","outputBytes":100804831,"sha1":"bf670fb98f6ff2f472a39bcadcabbbb398572329","entryCount":7,"storedEntries":4,"totalUncompressedBytes":117440604,"elapsedMillis":172,"peakObservedHeapBytes":4989320,"peakFractionOfMaxHeap":0.1024643088093035,"maxHeapBytes":48693248,"profile":"low_ram","indexFile":"/var/folders/6r/f3b9zpk91fnff3q5l5v2k96h0000gn/T/junit-545593098751889269/scratch/forked-low-ram.index.json","budget":{"profile":"low_ram","maxHeapBytes":"48693248","maxHeapMiB":"46","compileHeapBudgetBytes":"8388608","httpHeapBudgetBytes":"4869324","directMemoryBudgetBytes":"8388608","maxAssetBytesReadIntoMemory":"524288","cachesEnabled":"false","copyBufferBytes":"16384"}}
+[uas] heap=46MiB, archive=96MiB, peakObservedHeap=4MiB (10.2%)
+[uas] forked compiler exit=0
+pack 'forked-low-ram': 7 entries (4 stored), 112MiB uncompressed -> 96MiB archive, sha1=bf670fb98f6ff2f472a39bcadcabbbb398572329, peakHeap=4MiB of 46MiB (10.2%), profile=low_ram
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

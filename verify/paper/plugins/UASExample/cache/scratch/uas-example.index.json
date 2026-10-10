@@ -1,0 +1,54 @@
+{
+  "format": "uas-asset-index/1",
+  "entries": [
+    {
+      "path": "assets/minecraft/blockstates/note_block.json",
+      "size": 130,
+      "compressedSize": 203,
+      "method": "DEFLATED",
+      "crc32": "3553030012"
+    },
+    {
+      "path": "assets/uas/models/block/crystal_lamp.json",
+      "size": 2522,
+      "compressedSize": 422,
+      "method": "DEFLATED",
+      "crc32": "814732962"
+    },
+    {
+      "path": "assets/uas/models/item/crystal_lamp.json",
+      "size": 92,
+      "compressedSize": 176,
+      "method": "DEFLATED",
+      "crc32": "1179987888"
+    },
+    {
+      "path": "assets/uas/sounds.json",
+      "size": 1920,
+      "compressedSize": 364,
+      "method": "DEFLATED",
+      "crc32": "47507559"
+    },
+    {
+      "path": "assets/uas/textures/block/crystal_lamp_crystal.png.mcmeta",
+      "size": 163,
+      "compressedSize": 210,
+      "method": "DEFLATED",
+      "crc32": "1998558792"
+    },
+    {
+      "path": "pack.mcmeta",
+      "size": 136,
+      "compressedSize": 164,
+      "method": "DEFLATED",
+      "crc32": "352052029"
+    }
+  ],
+  "summary": {
+    "entryCount": 6,
+    "storedEntries": 0,
+    "deflatedEntries": 6,
+    "totalUncompressedBytes": 4963,
+    "totalCompressedBytes": 1539
+  }
+}

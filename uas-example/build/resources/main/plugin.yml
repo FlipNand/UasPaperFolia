@@ -1,0 +1,27 @@
+name: UASExample
+version: 1.0.0
+main: dev.uas.example.UasExamplePlugin
+description: Unified Asset Streaming example - custom block, sounds, HUD and cross-platform packets.
+authors: [UAS]
+
+# Match this to the server's own API version when packaging; Paper rejects a plugin whose
+# declared api-version names a release it does not recognise.
+api-version: '1.20'
+
+# The single most important line in this file. Without it Folia refuses to load the plugin
+# at all, regardless of how carefully the code uses region schedulers -- the flag is how a
+# plugin declares that it never assumes a main thread. The engine's per-player work is
+# dispatched through the owning region thread (see UasScheduler), so the claim is true here
+# rather than aspirational.
+folia-supported: true
+
+commands:
+  uas:
+    description: Inspect the Unified Asset Streaming engine (status, packs, blocks, inject).
+    usage: /uas [status|packs|blocks|inject]
+    permission: uas.admin
+
+permissions:
+  uas.admin:
+    description: Allows use of the /uas admin command.
+    default: op

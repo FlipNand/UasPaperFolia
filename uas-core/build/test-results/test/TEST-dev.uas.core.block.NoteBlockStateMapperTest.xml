@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.core.block.NoteBlockStateMapperTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.300Z" hostname="Aris-MacBook-Air.local" time="0.118">
+  <properties/>
+  <testcase name="mostKeysLandOnTheirOwnHashSlot()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.042"/>
+  <testcase name="stateAndIndexRoundTripAcrossTheWholeMatrix()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.005"/>
+  <testcase name="aSingleKeyIsStableThroughTheOneKeyApi()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.005"/>
+  <testcase name="allocationIsStableAcrossRepeatedCalls()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.006"/>
+  <testcase name="differentKeysGenerallyGetDifferentHashSlots()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.002"/>
+  <testcase name="allocationIsIndependentOfInputOrder()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.014"/>
+  <testcase name="variantsNameTheBlockModelForEachState()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.003"/>
+  <testcase name="theMatrixIsSixteenInstrumentsByTwentyFiveNotesByTwoPoweredStates()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.003"/>
+  <testcase name="overflowIsRejectedRatherThanSilentlyAliased()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.007"/>
+  <testcase name="blockStateStringIsTheVanillaForm()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.003"/>
+  <testcase name="theInstrumentTableCoversTheWholeStateSpaceInVanillaOrder()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.005"/>
+  <testcase name="allocationUsesEveryStateExactlyOnce()" classname="dev.uas.core.block.NoteBlockStateMapperTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

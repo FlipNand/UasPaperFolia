@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 22,
+    "supported_formats": [
+      22,
+      23
+    ],
+    "description": "UAS example content"
+  }
+}

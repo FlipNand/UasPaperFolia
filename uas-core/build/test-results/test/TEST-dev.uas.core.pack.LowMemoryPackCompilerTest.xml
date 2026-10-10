@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.core.pack.LowMemoryPackCompilerTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:49.081Z" hostname="Aris-MacBook-Air.local" time="0.108">
+  <properties/>
+  <testcase name="writesEveryEntryWithByteExactContent(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.009"/>
+  <testcase name="hashMatchesAnIndependentPassOverTheArchive(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.002"/>
+  <testcase name="timestampsDifferWhenDeterminismIsDisabled(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.002"/>
+  <testcase name="writesAStreamingIndex(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.002"/>
+  <testcase name="copyBufferSizeIsHonouredAndValidated(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.009"/>
+  <testcase name="identicalInputsProduceIdenticalBytes(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.003"/>
+  <testcase name="storesPrecompressedFormatsAndDeflatesText(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.002"/>
+  <testcase name="rejectsDuplicateAndTraversalPaths(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.001"/>
+  <testcase name="recordCarriesTheEvidence(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.004"/>
+  <testcase name="deflatesAStoredCandidateWhoseDeclaredSizeIsWrong(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.003"/>
+  <testcase name="differingCopyBuffersProduceTheSameArchive(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.006"/>
+  <testcase name="oversizedInMemoryAssetIsRejected(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.002"/>
+  <testcase name="alwaysDeflateDeflatesPrecompressedFormats(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.003"/>
+  <testcase name="indexIsOptional(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.001"/>
+  <testcase name="emptyEntriesAreHandled(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.002"/>
+  <testcase name="failedCompileLeavesNoPartialArchive(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.002"/>
+  <testcase name="manyEntriesDoNotGrowTheWorkingSet(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.046"/>
+  <testcase name="alwaysStoreStoresEvenTextEntries(Path)" classname="dev.uas.core.pack.LowMemoryPackCompilerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

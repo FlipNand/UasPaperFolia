@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.paper.UasPaperConfigTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.661Z" hostname="Aris-MacBook-Air.local" time="0.045">
+  <properties/>
+  <testcase name="aDifferentPortIsReportedWithBothNumbers()" classname="dev.uas.paper.UasPaperConfigTest" time="0.021"/>
+  <testcase name="everyOtherSettingKeepsItsDocumentedDefault()" classname="dev.uas.paper.UasPaperConfigTest" time="0.002"/>
+  <testcase name="aMatchingPortIsSilent()" classname="dev.uas.paper.UasPaperConfigTest" time="0.001"/>
+  <testcase name="theDefaultBaseUrlUsesThePortItWasGiven()" classname="dev.uas.paper.UasPaperConfigTest" time="0.001"/>
+  <testcase name="aMalformedUrlIsNotAWarning()" classname="dev.uas.paper.UasPaperConfigTest" time="0.002"/>
+  <testcase name="aUrlWithoutAnExplicitPortIsNotAWarning()" classname="dev.uas.paper.UasPaperConfigTest" time="0.001"/>
+  <testcase name="aProxyForwardingAPublicPortIsLeftAloneWhenItMatches()" classname="dev.uas.paper.UasPaperConfigTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

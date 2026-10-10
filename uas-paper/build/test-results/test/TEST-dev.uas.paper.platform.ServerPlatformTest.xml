@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.paper.platform.ServerPlatformTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:47.907Z" hostname="Aris-MacBook-Air.local" time="0.01">
+  <properties/>
+  <testcase name="presenceOfTheMarkerMeansFolia()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.001"/>
+  <testcase name="theMarkerClassIsTheFoliaOnlyServerClass()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.001"/>
+  <testcase name="absenceOfTheMarkerMeansPaper()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.001"/>
+  <testcase name="theVersionStringIsOnlyASecondarySignal()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.001"/>
+  <testcase name="platformFlagsDescribeTheirThreadingModel()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.001"/>
+  <testcase name="anUnrelatedClassBeingPresentDoesNotImplyFolia()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.001"/>
+  <testcase name="thisTestJvmIsNotFolia()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.002"/>
+  <testcase name="aNullLoaderIsTreatedAsPaperRatherThanCrashing()" classname="dev.uas.paper.platform.ServerPlatformTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

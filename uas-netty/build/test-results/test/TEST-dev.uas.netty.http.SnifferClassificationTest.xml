@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.uas.netty.http.SnifferClassificationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-10T23:16:48.676Z" hostname="Aris-MacBook-Air.local" time="0.007">
+  <properties/>
+  <testcase name="empty input is undecided rather than a guess" classname="dev.uas.netty.http.SnifferClassificationTest" time="0.0"/>
+  <testcase name="no Minecraft handshake can be classified as HTTP" classname="dev.uas.netty.http.SnifferClassificationTest" time="0.001"/>
+  <testcase name="every supported method is classified as HTTP once complete" classname="dev.uas.netty.http.SnifferClassificationTest" time="0.0"/>
+  <testcase name="arbitrary binary input is never read as HTTP" classname="dev.uas.netty.http.SnifferClassificationTest" time="0.004"/>
+  <testcase name="a legacy ping byte is always Minecraft" classname="dev.uas.netty.http.SnifferClassificationTest" time="0.0"/>
+  <testcase name="a proper prefix of a method is undecided, never a wrong answer" classname="dev.uas.netty.http.SnifferClassificationTest" time="0.001"/>
+  <testcase name="no method token is a proper prefix of another" classname="dev.uas.netty.http.SnifferClassificationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
